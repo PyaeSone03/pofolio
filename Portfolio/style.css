@@ -1,0 +1,247 @@
+/* macAndIpadScreen */
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #1e1e1e;
+  color: #b3b3b3;
+}
+
+.parent {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.left {
+  width: 25%;
+  height: 88vh;
+  padding: 16px;
+  border: 3px solid #323232;
+  border-radius: 24px;
+  position: sticky;
+  top: 0;
+}
+
+.textName {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.leftText {
+  width: 100%;
+  font-size: 48px;
+  display: block;
+}
+
+.rightText {
+  font-size: 24px;
+  text-align: end;
+  display: block;
+}
+
+.leftImg {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.leftCopy {
+  text-align: center;
+  font-size: small;
+  color: #313131;
+}
+
+.leftLink {
+  text-align: center;
+  padding: 16px;
+}
+
+.iconLink {
+  width: 36px;
+  padding: 0 12px;
+}
+
+.mailtoMe {
+  text-align: center;
+  display: flex;
+}
+
+.buttonMail {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.mailCss {
+  width: 36px;
+}
+
+.Mail {
+  text-decoration: none;
+  font-size: large;
+}
+
+.middle {
+  width: 65%;
+}
+
+.home{
+    width: 100%;
+    padding: 0 0 30px 0;
+    margin: 10px 0 0 0 ;
+}
+
+.mainIntro {
+    width: 20%;
+    padding: 10px;
+    font-size: large;
+    border: 1px solid #b3b3b3;
+    border-radius: 24px;
+  }
+  
+  .introHome {
+    vertical-align: middle;
+    width: 30px;
+  }
+  
+  .mainH1 {
+    margin-top: 30px;
+  }
+  
+  .mainH1 h1{
+   font-size: 64px;
+   font-family:  Arial, Helvetica, sans-serif;
+  }
+
+  .mainH1 p{
+    padding-top: 50px;
+    font-size: 64px;
+    font-family:  Arial, Helvetica, sans-serif;
+   }
+
+  .textColor{
+    color: aqua;
+  }
+
+  .mainH1 p{
+    margin-top: 30px;
+    font-size: medium;
+  }
+
+
+.projectS {
+  display: flex;
+  width: 100%;
+}
+
+.project {
+  margin: 60px 0 0 0;
+  padding: 40px;
+  width: 33.33%;
+}
+
+.projectH1 {
+  font-size: large;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.projectH1 h1 {
+  color: aqua;
+}
+
+.yearText {
+  font-size: small;
+  font-weight: 100px;
+  text-align: start;
+}
+
+.myskills{
+   
+}
+
+.skillH1{
+    margin: 36px 0;
+}
+
+.skillBlock {
+  width: 100%;
+  display: flex;
+  padding: 32px 0;
+}
+
+.eachBlock {
+  width: 20%;
+  text-align: center;
+  border: 1px solid #323232;
+  border-radius: 30%;
+}
+
+.skillImg {
+  width: 80px;
+  height: 100px;
+  text-align: center;
+  margin: 24px 0;
+}
+
+.skillName{
+  color: aqua;
+  padding-top: 12px;
+  background-color: transparent;
+}
+
+.skillPercentage {
+  color: aqua;
+  padding-bottom: 12px;
+  background-color: transparent;
+}
+  
+.right {
+    width: 15%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .columNav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+  }
+  
+  .columNav a {
+    width: 100%;
+  }
+  
+  .columNav img {
+    width: 70%;
+  }
+
+  
+  
+
+/* phoneScreen */
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  .parent {
+    background-color: rgb(0, 255, 13);
+  }
+
+  .left {
+    display: none;
+  }
+}
